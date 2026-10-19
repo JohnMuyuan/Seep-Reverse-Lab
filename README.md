@@ -25,7 +25,7 @@
 </p>
 
 <p align="center">
-  [ <strong>English</strong> | <a href="README.zh.md">中文文档</a> ]
+  [ <strong>English</strong> | <a href="README.zh.md">Chinese documentation</a> ]
 </p>
 
 <p align="center">
@@ -161,7 +161,7 @@ The agent autonomously:
 ```
 Seep\ (251 MB)
 ├── README.md                      ← This file (English default)
-├── README.zh.md                   ← Chinese documentation (中文文档)
+├── README.zh.md                   ← Chinese documentation (Chinese documentation)
 ├── CLAUDE.md                      ← Project-level instructions for Claude Code
 ├── .mcp.json                      ← Project-level MCP registration (Claude Code / OpenCode)
 ├── DSH-PROFILE.md                 ← DeepSeek Harness Cordis plugin config template
@@ -296,7 +296,7 @@ chmod +x setup/install.sh
 Already deployed? No need to re-clone or copy files by hand. The updater is **idempotent and lossless** — your model credentials and any custom MCP servers you added are never overwritten.
 
 - **Easiest for Windows**: Double-click **`update.bat`** in the repository root for zero-command automatic upgrade.
-- **In-Agent Prompt**: Simply type **"update workbench"** (or "更新工作台") in your Agent chat, and it will execute the updater and report back.
+- **In-Agent Prompt**: Simply type **"update workbench"** (or "update workbench") in your Agent chat, and it will execute the updater and report back.
 - **CLI Commands**:
 ```powershell
 # Windows
@@ -352,7 +352,7 @@ Run the 9-dimension health verifier (52 checks) against `MANUAL/DEPLOYMENT-CHECK
 |---|---|
 | ⭐ Double-click (easiest) | `check.bat` in project root |
 | PowerShell | `powershell -ExecutionPolicy Bypass -File .\check.ps1` |
-| Agent chat | Send `check` (or `doctor` / `检查`) — agent runs and reports inline |
+| Agent chat | Send `check` (or `doctor` / `check`) — agent runs and reports inline |
 
 <p align="center">
   <img src="docs/images/verifier-check.png" alt="Seep Health Verifier Dashboard (51 Checks Passed across 9 Dimensions)" width="880">
